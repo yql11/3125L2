@@ -7,18 +7,70 @@ var products = [
 		name: "brocoli",
 		vegetarian: true,
 		glutenFree: true,
+		meat: false,
 		price: 1.99
+	},
+	{
+		name: "onion",
+		vegetarian: true,
+		glutenFree: true,
+		meat: false,
+		price: 1.54
+	},
+	{
+		name: "carrot",
+		vegetarian: true,
+		glutenFree: true,
+		meat: false,
+		price: 2.5
+	},
+	{
+		name: "cabbage",
+		vegetarian: true,
+		glutenFree: true,
+		meat: false,
+		price: 1.44
 	},
 	{
 		name: "bread",
 		vegetarian: true,
 		glutenFree: false,
+		meat: false,
 		price: 2.35
+	},
+	{
+		name: "chicken chest",
+		vegetarian: false,
+		glutenFree: true,
+		meat: true,
+		price: 5.99
+	},
+	{
+		name: "beef balls",
+		vegetarian: false,
+		glutenFree: true,
+		meat: true,
+		price: 7.56
+	},
+	{
+		name: "potato",
+		vegetarian: true,
+		glutenFree: true,
+		meat: false,
+		price: 2.04
+	},
+	{
+		name: "pork",
+		vegetarian: false,
+		glutenFree: true,
+		meat: true,
+		price: 1.99
 	},
 	{
 		name: "salmon",
 		vegetarian: false,
 		glutenFree: true,
+		meat: true,
 		price: 10.00
 	}
 ];
